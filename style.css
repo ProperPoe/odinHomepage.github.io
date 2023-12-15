@@ -4,6 +4,22 @@
     padding: 0;
 }
 
+.bg-container{
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
 .header-bg{
-    background-color: turquoise;
+    min-width: 100%;
+    background-color: rgb(19, 146, 175);
+    transform: rotate(-9deg) scaleX(105%) translateY(-70px); 
+}
+
+
+.footer-bg
+{
+    background-color: rgb(19, 146, 175);
 }
